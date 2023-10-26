@@ -79,8 +79,12 @@ main .personagem .imagem {
     cursor: pointer;
     border-radius: 50%;
     cursor: url("../imagens/KDA-Akali.cur"), default;
+     transition: transform 1s cubic-bezier(0, 0.58, 0.72, 1.21);
 }
 
+.botoes .botao:hover {
+    transform: scale(1.2)rotate(180deg));
+}
 .botoes .botao img {
     border-radius: 60%;
 }
